@@ -4,28 +4,28 @@
     "id": 1,
     "title": "Pufi RAIN",
     "description": "Descripción del producto. Este es un texto simulado",
-    "product_image": "https://e7.pngegg.com/pngimages/74/717/png-clipart-black-umbrella-umbrella-graphy-hd-black-umbrella-black-hair-umbrella.png",
+    "product_image": "https://img.freepik.com/premium-photo/isolated-blue-umbrella-white-background_100488-823.jpg?w=100",
     "back_image": "https://koreajoongangdaily.joins.com/data/photo/2020/07/17/1155fc0d-00d0-484d-9142-dffb1bb5b9a0.jpg"
   },
   {
     "id": 2,
     "title": "Pufi PUFF",
     "description": "Descripción del producto. Este es un texto simulado",
-    "product_image": "https://w7.pngwing.com/pngs/26/937/png-transparent-bean-bag-chair-wing-chair-furniture-tuffet-chair.png",
+    "product_image": "https://dormipuff.com/assets/icommerce/product/99.jpg",
     "back_image": "https://imagenes.elpais.com/resizer/E7qcSQbOR91WKvOxf02oFAClUVo=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/MZY3IC4AXZCX5EZQKFXCCP7QRE.webp"
   },
   {
     "id": 3,
     "title": "Pufi CART",
     "description": "Descripción del producto. Este es un texto simulado",
-    "product_image": "https://w7.pngwing.com/pngs/572/977/png-transparent-paper-bag-tote-bag-blue-bag-blue-accessories-reusable-shopping-bag.png",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9kwXzPByJD8Va0Lu9G5Aej4ZG_qvF1C1Nw&usqp=CAU",
     "back_image": "http://hi-eco.mx/wp-content/uploads/2019/01/Reusable-shopping-bags-may-not-be-the-perfect-solution-to-plastic1.jpg"
   },
   {
     "id": 4,
     "title": "Pufi NAP",
     "description": "Descripción del producto. Este es un texto simulado",
-    "product_image": "https://w7.pngwing.com/pngs/120/196/png-transparent-neck-travel-pillow-fiberfill-cushion-travel-blue-sleep-electric-blue-thumbnail.png",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYw-oOKK21hAyxmuYiEXSezuwPhQEM94Uj2g&usqp=CAU",
     "back_image": "https://www.jetsetter.com//uploads/sites/7/2018/04/Gbd-qpbZ.jpeg"
   }
 ]
