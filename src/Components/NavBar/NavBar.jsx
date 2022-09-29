@@ -16,10 +16,13 @@ export default function NavBar() {
 			</div>
 			<div className="menu">
 				{ICONS.map((icon, index) => {
-					return <span key={ index } className={`menu-item icon-${index}`}>
-						<img src={ icon.icon } alt={ icon.name } className={`icons icon`} />
-						<h1 className="menu-text">pufi { icon.name }</h1>
+					return <div className="menu-container">
+						<a className={` icon-${index}`}></a>
+						<span key={ index } className={`menu-item`}>
+							<img src={ icon.icon } alt={ icon.name } className={`icons icon`} />
+							<h1 className="menu-text">pufi { icon.name }</h1>
 						</span>
+						</div>
 				})}
 			</div>
 			<div className="user-data">

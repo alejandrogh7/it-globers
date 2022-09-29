@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
-      {products.products.map((product) => {
+      {products?.products?.map((product) => {
         return <Product 
           key={product.id} 
           id={product.id} 

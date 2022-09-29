@@ -22,20 +22,29 @@
 		align-items:center;
 		justify-content: center;
 
+		.menu-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
 		.icon-1 {
 			border-left-color: #999999; 
 			border-left-style: solid;
 			border-left-width: 2px;
+			height: 70px;
 		}
 		.icon-2 {
 			border-left-color: #999999; 
 			border-left-style: solid;
 			border-left-width: 2px;
+			height: 70px;
 		}
 		.icon-3 {
 			border-left-color: #999999; 
 			border-left-style: solid;
 			border-left-width: 2px;
+			height: 70px;
 		}
 
 
