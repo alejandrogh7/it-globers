@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
 @import './components/nav';
+@import './components/landing';
 
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Basic', sans-serif;
+	color: #ffffff;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
 }

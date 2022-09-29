@@ -1,3 +1,103 @@
 .navbar_container {
-	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.logo {
+		display: flex;
+		justify-content:center;
+		text-transform: capitalize;
+		font-size: 40px;
+		padding: 20px;
+		font-weight: bolder;
+
+		.copy {
+			font-size: 10px;
+		}
+	}
+
+	.menu {
+		display: flex;
+		align-items:center;
+		justify-content: center;
+
+		.icon-1 {
+			border-left-color: #999999; 
+			border-left-style: solid;
+			border-left-width: 2px;
+		}
+		.icon-2 {
+			border-left-color: #999999; 
+			border-left-style: solid;
+			border-left-width: 2px;
+		}
+		.icon-3 {
+			border-left-color: #999999; 
+			border-left-style: solid;
+			border-left-width: 2px;
+		}
+
+
+		.menu-item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 10px 0 10px 0;
+			padding: 0 10px 0 10px;
+			cursor: pointer;
+			
+			.icons {
+				width: 40px;
+			}
+
+			.icon {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+			}
+			
+			.menu-text {
+				font-size: 15px;
+				text-transform: uppercase;
+				margin-top: 0;
+			}
+
+		}
+	}
+
+	.user-data {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 20px;
+
+		span {
+			text-transform: uppercase;
+			font-size: 10px;
+			margin: 10px 0 10px 0;
+			padding: 0 10px 0 10px;
+			cursor: pointer;
+		}
+
+		.user {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+		}
+
+		.compra {
+			border-left-color: #999999; 
+			border-left-style: solid;
+			border-left-width: 2px;
+		}
+
+		.icons {
+			width: 10px;
+		}
+
+	}
 }
+

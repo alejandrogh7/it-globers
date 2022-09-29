@@ -1,0 +1,80 @@
+.landing-container {
+	height: 100vh;
+	background-image: url("https://www.happers.es/server/Portal_0010689/img/galeria/carrusel_happers_to_go_s7_30455.jpg");
+	background-size: cover;
+	box-shadow: inset 0px 22px 30px 5px rgba(0,0,0,0.2);
+
+	.items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		.title {
+			text-transform: uppercase;
+			margin: 15vh;
+			font-size: 30px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			h1 {
+				margin:0;
+				font-weight: lighter;
+			}
+		}
+
+		.btn-container {
+			display:flex;
+			align-items:center;
+			justify-content: center;
+
+			button {
+				background-color: transparent;
+				text-transform: uppercase;
+				padding: 10px 30px 10px 30px;
+				color: #ffffff;
+				overflow: hidden;
+				border: 2px solid #ffffff;
+				letter-spacing: 4px;
+				cursor: pointer;
+			}
+		}
+
+		.slides {
+			padding-top: 20vh;
+			width: 100%;
+			overflow: hidden;
+			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.dot {
+				cursor:pointer;
+				height: 20px;
+				width: 20px;
+				margin: 0 10px;
+				border-radius: 50%;
+				border: 2px solid #ffffff;
+				display: flex;
+				align-items: center;
+
+				.bullet {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 17px;
+					height: 17px;
+					margin: 2px;
+					border-radius: 50%;
+				}
+
+				.active {
+					background-color: #ffffff;
+				}
+			}
+		}
+	}
+}
