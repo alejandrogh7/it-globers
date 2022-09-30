@@ -6,6 +6,8 @@ import { getProducts } from './redux/thunks/productThunks';
 //COMPONENTS
 import LandingPage from './Components/LandingPage/LandingPage.jsx';
 import Product from './Components/Product/Product.jsx';
+import Form from './Components/Form/Form.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 function App() {
   const dispatch = useDispatch();
@@ -28,6 +30,8 @@ function App() {
           back_image={product.back_image}
           />
       })}
+      <Form />
+      <Footer />
     </div>
   );
 }

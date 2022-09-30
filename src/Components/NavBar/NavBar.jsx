@@ -11,14 +11,14 @@ const ICONS = [{icon: puff, name: "puff"}, {icon: rain, name: "rain"}, {icon: ca
 export default function NavBar() {
 	return (
 		<section className="navbar_container">
-			<div className="logo">
+			<a className="logo" href="/">
 				<span>pufi</span><span className="copy">©</span>
-			</div>
+			</a>
 			<div className="menu">
 				{ICONS.map((icon, index) => {
-					return <div className="menu-container">
+					return <div className="menu-container" key={ index }>
 						<a className={` icon-${index}`}></a>
-						<span key={ index } className={`menu-item`}>
+						<span className={`menu-item`}>
 							<img src={ icon.icon } alt={ icon.name } className={`icons icon`} />
 							<h1 className="menu-text">pufi { icon.name }</h1>
 						</span>

@@ -11,6 +11,8 @@
 		font-size: 40px;
 		padding: 20px;
 		font-weight: bolder;
+		color: #ffffff;
+		text-decoration: none;
 
 		.copy {
 			font-size: 10px;
@@ -21,6 +23,7 @@
 		display: flex;
 		align-items:center;
 		justify-content: center;
+		color: #ffffff;
 
 		.menu-container {
 			display: flex;
@@ -29,19 +32,19 @@
 		}
 
 		.icon-1 {
-			border-left-color: #999999; 
+			border-left-color: #b2b2b2; 
 			border-left-style: solid;
 			border-left-width: 2px;
 			height: 70px;
 		}
 		.icon-2 {
-			border-left-color: #999999; 
+			border-left-color: #b2b2b2; 
 			border-left-style: solid;
 			border-left-width: 2px;
 			height: 70px;
 		}
 		.icon-3 {
-			border-left-color: #999999; 
+			border-left-color: #b2b2b2; 
 			border-left-style: solid;
 			border-left-width: 2px;
 			height: 70px;
@@ -59,6 +62,7 @@
 			
 			.icons {
 				width: 40px;
+				color: #ffffff;
 			}
 
 			.icon {
@@ -99,7 +103,7 @@
 		}
 
 		.compra {
-			border-left-color: #999999; 
+			border-left-color: #b2b2b2; 
 			border-left-style: solid;
 			border-left-width: 2px;
 		}
