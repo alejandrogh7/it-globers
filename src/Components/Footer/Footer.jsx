@@ -9,9 +9,9 @@ export default function Footer() {
 	return (
 		<section className="footer_container">
 			<div className="foot">
-				<div className="logo">
+				<a className="logo" href="/">
 					<span>pufi</span><span className="copy">©</span>
-				</div>
+				</a>
 					<div className="data">
 						<div className="items">
 							<span>pufi rain</span>

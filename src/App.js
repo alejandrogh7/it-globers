@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
-      {products?.products?.map((product) => {
+      {products.success ? products.products.map((product) => {
         return <Product 
           key={product.id} 
           id={product.id} 
@@ -29,7 +29,7 @@ function App() {
           product_image={product.product_image} 
           back_image={product.back_image}
           />
-      })}
+      }) : null}
       <Form />
       <Footer />
     </div>

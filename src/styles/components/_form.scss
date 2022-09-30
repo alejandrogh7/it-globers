@@ -19,10 +19,16 @@
 			gap: 2px;
 		}
 
+		img:hover {
+			filter: brightness(80%);
+			transition: filter 1s ease;
+		}
+
 		img {
 			width: 200px;
 			height: 200px;
 			object-fit: cover;
+			transition: filter 1s ease;
 		}
 	}
 	
